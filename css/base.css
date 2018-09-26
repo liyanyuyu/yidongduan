@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.flex{
+	display: flex;
+}
+
+.foot{
+	width: 10rem;
+	height: 1.351351rem;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	background: white;
+	border-top: 0.027027rem solid #E3E3E3;
+}
+.foot-item{
+	width: 2rem;
+}
+.foot-item a{
+	color: #929292;
+}
+.foot-item p{
+	font-size: 0.324324rem;
+	margin: 0.135135rem 0;
+}
+.on{
+	color: #f23030;;
+}

@@ -1,0 +1,132 @@
+.swiper-container{
+    width: 10rem;
+    height:5.27027rem;
+}
+ .swiper-wrapper .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	width: 10rem;
+	height: 1.189189rem;
+	align-items: center;
+	text-align: center;
+	position: fixed;
+	top:0;
+	z-index: 120;
+}
+.nav input{
+	width:7rem;
+	height: 0.918918rem;
+	border-radius:0.162162rem ;
+	border: 0;
+	background: #E3E3E3;
+	padding-left:1.081081rem;
+	color: white;
+	opacity: 0.4;
+}
+.nav-item:nth-of-type(1){
+	width:1.5rem;
+	color: white;
+}
+.nav-item:nth-of-type(1) a{
+	color: white;
+	font-size: 0.324324rem;
+}
+.nav-item:nth-of-type(2){
+	font-size: 0.324324rem;
+	color: white;
+	position: relative;
+	width:7rem;
+}
+.nav-item:nth-of-type(2) span{
+	position: absolute;
+	left:0.54054rem;
+	line-height: 0.918918rem;
+	
+}
+.nav-item span{
+	color: white;
+}
+.nav-item:nth-of-type(3){
+	width:1.5rem;
+}
+.nav-item:nth-of-type(3) span{
+	font-size: 0.378378rem;
+}
+.banner{
+	width: 10rem;
+	height: 2.616216rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.art{
+	width: 10rem;
+	height: 4.405405rem;
+	flex-wrap: wrap;
+	align-content: center;
+	border-top: 1px solid #efefef;
+}
+.art-item{
+	width: 2rem;
+	height: 1.567567rem;
+	margin-bottom: 0.202702rem;
+}
+.art-item a{
+	display: block;
+}
+.art-item a p{
+	color: #8f8f94;
+	font-size:0.324324rem;
+}
+.art-item img{
+	width: 1rem;
+	height: 1rem;
+}
+.sec{
+	width: 10rem;
+	flex-wrap: wrap;
+}
+.sec-item:nth-of-type(1){
+	width: 10rem;
+	height: 2.605405rem;
+}
+.sec-item:nth-of-type(2),.sec-item:nth-of-type(3){
+	width: 5rem;
+	height: 2.864864rem;
+	margin: 0.054054rem 0;
+}
+.sec-item:nth-of-type(4),.sec-item:nth-of-type(5),.sec-item:nth-of-type(6),.sec-item:nth-of-type(7){
+	width:2.5rem;
+	height: 3.27027rem;
+}
+.sec-item:nth-of-type(8){
+	width: 10rem;
+	height: 0.81081rem;
+}
+.sec-item:nth-of-type(9),.sec-item:nth-of-type(10),.sec-item:nth-of-type(11),.sec-item:nth-of-type(12){
+	width:5rem;
+	height: 3.243243rem;
+}
+.sec-item:nth-of-type(13),.sec-item:nth-of-type(14),.sec-item:nth-of-type(15),.sec-item:nth-of-type(16){
+	width: 2.5rem;
+	height: 3.243243rem;
+}
+.sec-item:nth-of-type(17){
+	width: 10rem;
+	height: 0.81081rem;
+}
+.sec-item:nth-of-type(18),.sec-item:nth-of-type(19),.sec-item:nth-of-type(20),.sec-item:nth-of-type(21){
+	width:5rem;
+	height: 3.243243rem;
+}
+.sec-item:nth-of-type(22),.sec-item:nth-of-type(23),.sec-item:nth-of-type(24),.sec-item:nth-of-type(25){
+	width: 2.5rem;
+	height: 3.243243rem;
+}
+.sec-item img{
+	width: 100%;
+	height:100%;
+}

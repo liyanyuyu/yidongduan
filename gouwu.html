@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>商城</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/gouwu.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper-4.3.3.min.css"/>
+</head>
+<body>
+	<header>
+		<div class="head flex">
+			<h4>我的购物车</h4>
+		</div>
+	</header>
+	<section>
+		<div class="se">
+			<div class="sec-title clearfix">
+			<input type="checkbox" name="" id="" value="" / class="pull-left">
+			<span class="pull-left">卡饰社官方旗县店</span>
+		</div>
+		<div class="sec-item">
+			<input type="checkbox" name="" id="" value="" / class="pull-left">
+			<div class="sec-ite">
+				<img src="img/s1.jpg" alt="" />
+			</div>
+			<div class="sec-it">
+				<h4>2018夏季新款韩版蕾丝拼接荷叶袖露肩雪纺娃娃衫上衣女短袖雪...</h4>
+				<div class="sec-i">
+					<span>重量:3.3kg</span>
+					<span>颜色:标配版</span>
+				</div>
+				<div class="sec-is clearfix">
+					<div class="sec-is-fl pull-left" style="line-height: 0.675675rem;">
+						<span style="color: red;">￥<b>100.00</b></span>
+					</div>
+					<div class="sec-is-fr pull-right">
+						<a href="javascript:;" onclick=ca(this)>-</a>
+						<span class="text-center" style="width: 0.702702rem; display: inline-block;">1</span>
+						<a href="javascript:;" onclick=ca(this)>+</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sec-item">
+			<input type="checkbox" name="" id="" value="" / class="pull-left">
+			<div class="sec-ite">
+				<img src="img/s2.jpg" alt="" />
+			</div>
+			<div class="sec-it">
+				<h4>2018夏季新款韩版蕾丝拼接荷叶袖露肩雪纺娃娃衫上衣女短袖雪...</h4>
+				<div class="sec-i">
+					<span>重量:3.3kg</span>
+					<span>颜色:标配版</span>
+				</div>
+				<div class="sec-is clearfix">
+					<div class="sec-is-fl pull-left" style="line-height: 0.675675rem;">
+						<span style="color: red;">￥<b>100.00</b></span>
+					</div>
+					<div class="sec-is-fr pull-right">
+						<a href="javascript:;"  onclick=ca(this)>-</a>
+						<span class="text-center" style="width: 0.702702rem; display: inline-block;">1</span>
+						<a href="javascript:;"  onclick=ca(this)>+</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sec-item">
+			<input type="checkbox" name="" id="" value="" / class="pull-left">
+			<div class="sec-ite">
+				<img src="img/s3.jpg" alt="" />
+			</div>
+			<div class="sec-it">
+				<h4>2018夏季新款韩版蕾丝拼接荷叶袖露肩雪纺娃娃衫上衣女短袖雪...</h4>
+				<div class="sec-i">
+					<span>重量:3.3kg</span>
+					<span>颜色:标配版</span>
+				</div>
+				<div class="sec-is clearfix">
+					<div class="sec-is-fl pull-left" style="line-height: 0.675675rem;">
+						<span style="color: red;">￥<b>100.00</b></span>
+					</div>
+					<div class="sec-is-fr pull-right">
+						<a href="javascript:;"  onclick=ca(this)>-</a>
+						<span class="text-center" style="width: 0.702702rem; display: inline-block;">1</span>
+						<a href="javascript:;"  onclick=ca(this)>+</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sec-bot text-right">
+			本店总计：￥
+			<span>0.00</span>
+		</div>
+		</div>
+	</section>
+	<footer>
+		<div class="foot flex">
+			<div class="foot-item text-center"><a href="index.html"><span class="glyphicon glyphicon-home"><p>首页</p></span></a></div>
+			<div class="foot-item text-center"><a href="fenlei.html"><span class="glyphicon glyphicon-th"><p>分类</p></span></a></div>
+			<div class="foot-item text-center"><a href="shangjia.html"><span class="glyphicon glyphicon-oil"><p>附近商家</p></span></a></div>
+			<div class="foot-item text-center"><a href="gouwu.html"><span class="glyphicon glyphicon-shopping-cart on"><p>购物车</p></span></a></div>
+			<div class="foot-item text-center"><a href="me.html"><span class="glyphicon glyphicon-user"><p>我的</p></span></a></div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript"  src="js/gouwu.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/swiper-4.3.3.min.js"></script>
+    <script>
+    	function ca(btn){
+           var span=btn.parentElement.querySelector('span');
+            console.log(span.innerHTML)
+            var n=span.innerHTML;
+            
+            
+            if(btn.innerHTML=='+'){
+                n++;
+            }else if(n>1){
+                n--;
+            }else{
+                n=1;
+            }
+            span.innerHTML=n;
+            console.log(n)
+            var dj=100;
+            console.log(btn.parentElement.previousElementSibling.firstElementChild.lastElementChild.innerHTML)
+            var sub=btn.parentElement.previousElementSibling.firstElementChild.lastElementChild;
+            var sed=dj*n;
+            console.log(sed)
+            sub.innerHTML=sed.toFixed(2);
+            console.log(sub)
+//          var tbody=document.querySelector('.se');
+////          var inps=document.querySelector('.sec-item>input');
+////          console.log(inps);
+//          tbody.addEventListener('click',function(event){
+//          var target=event.target;//target代表当前点击的东西
+//          if(inps.checked){
+//          	console.log('123')
+////               target.parentElement.parentElement.removeChild(target.parentElement);
+//          }else{
+//          	console.log('1323213')
+//          }
+//         
+//      })
+//
+//          var xj=document.querySelectorAll('tbody tr td:last-child');
+//          console.log(xj);
+//          var zj=document.querySelectorAll('tfoot tr td')[1];
+//          console.log(zj);
+//          for(var i=0,j=0;i<xj.length;i++){
+//              j+=parseFloat(xj[i].innerHTML.slice(1));
+//              console.log(j);
+//              zj.innerHTML='&yen;'+j.toFixed(2);
+//          }
+        }
+    </script>
+</body>
+</html>

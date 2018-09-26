@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-color: #f4f4f4;
+}
+.head{
+	width: 10rem;
+	align-items: center;
+	background: #fafafa;
+	border: 1px solid #E3E3E3;
+}
+.head span{
+	width: 1.5rem;
+	height: 1.351351rem;
+}
+.head span:nth-of-type(1){
+	background: url(../img/top.png) no-repeat;
+	background-position:0.324324rem 0.378378rem;
+	background-size: auto 6.216216rem;
+}
+.head span:nth-of-type(2){
+	background: url(../img/top.png) no-repeat;
+	background-position:0.324324rem -0.675675rem;
+	background-size: auto 6.216216rem;
+}
+.head input{
+	width: 7rem;
+	height:0.945945rem;
+	padding: 0.405405rem;
+	border: 0;
+}
+.art{
+	width: 10rem;
+	justify-content: space-between;
+	background: #fff;
+	align-items: center;
+	border-bottom: 1px solid #222222;
+}
+.art-item ,.art-ite{
+	width: 3.333rem;
+	height: 1rem;
+}
+.art-item:nth-of-type(2){
+	border: 1px solid #EFEFEF;
+	border-top: 0;
+	border-bottom: 0;
+	box-sizing: border-box;
+}
+.art-item a,.art-ite a{
+	vertical-align: middle;
+	line-height: 1rem;
+	font-size: 0.259459rem;
+	color: black;
+}
+.art-items,.art-itemss{
+	width: 10rem;
+	display: none;
+	position: absolute;
+	z-index: 123456;
+	background: white;
+}
+.art-lis,.art-li{
+	width: 5rem;
+	height: 4.504486rem;
+}
+.art-liss{
+	width: 10rem;
+	height: 4.504486rem;
+}
+.art-li{
+	overflow-y: scroll;
+	background: #f4f4f4;
+}
+.art-li>li{
+	font-size: 0.259459rem;
+	padding-left: 0.54054rem;
+	line-height: 0.767297rem;
+	display: none;
+}
+.art-lis li{
+	width: 5rem;
+	height: 0.756756rem;
+	font-size: 0.259459rem;
+	padding-left: 0.54054rem;
+	background: white;
+	line-height: 0.756756rem;
+}
+.art-liss li{
+	width: 10rem;
+	height: 0.756756rem;
+	font-size: 0.259459rem;
+	padding-left: 0.54054rem;
+	background: white;
+	line-height: 0.756756rem;
+}
+.art-lis li span{
+	padding:0rem 0.405405rem;
+	color:#C0C0C0;
+}
+.sec{
+	width: 10rem;
+	padding: 0.27027rem;
+	background: white;
+	border-bottom: 1px solid #E3E3E3;
+}
+.sec-img{
+	width: 2rem;
+	
+}
+.sec-asd dt p{
+	font-size:0.432432rem;
+	/*margin: 0;*/
+}
+.sec-li img{
+	width: 0.675675rem;
+	height: 0.324324rem;
+	
+}
+.sec-li span{
+	font-size: 0.259459rem;
+	color: #8F8F94;
+	padding:0 0.54054rem;
+	}
+.sec-lis span{
+	font-size: 0.324324rem;
+	/*color: #333333;*/
+}
+.sec-asd dt{
+	padding-left: 0.54054rem;
+}
+.sec-img img{
+	width: 1.756756rem;
+	height: 1.756756rem;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+.sec-asd{
+	width: 8rem;
+	
+}
